@@ -17,7 +17,7 @@ const Dashboard = () => {
             </div>
         )
     }
-    // Scroll to the top of the page when the component mounts
+   
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
